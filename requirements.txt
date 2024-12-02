@@ -7,3 +7,4 @@ tensorflow
 matplotlib
 numpy
 pandas
+streamlit
