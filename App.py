@@ -16,6 +16,7 @@ endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
 version = os.getenv("AZURE_OPENAI_VERSION")
 
 # Load the trained model
+
 model = load_model('/home/comfortine/Image Classification/Skin_disease_image_classification.keras')  # type: ignore
 data_cat = ['acne', 'alopecia areata', 'chickenpox', 'hives', 'melanoma', 'psoriasis', 'ringworm', 'vitiligo', 'warts']
 img_height = 180
