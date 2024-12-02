@@ -1,0 +1,9 @@
+openai
+langchain
+python-dotenv
+huggingface_hub
+langchain-community
+tensorflow
+matplotlib
+numpy
+pandas
